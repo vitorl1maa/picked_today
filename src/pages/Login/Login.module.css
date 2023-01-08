@@ -1,0 +1,89 @@
+.container_login {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ margin-top: 5em;
+ gap: 2em;
+ color: #0A2647;
+
+}
+
+.container_login svg {
+  font-size: 4em;
+  color: #6C00FF;
+  
+}
+
+.link_reset_password {
+  margin-bottom: 1em;
+  font-size: .8em;
+  font-weight: 00;
+ 
+}
+
+.link_reset_password a {
+  color: #0A2647;
+}
+
+.link_reset_password a:hover {
+  text-decoration: underline;
+}
+
+.container_login form{
+  width: 100%;
+  margin-right: 9em;
+  margin-top: 2em;
+}
+
+.dogs_login {
+  width: 50%;
+  padding: 2em;
+  border-radius: 20px;
+}
+.dogs_login img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.btn {
+  background-color: #6C00FF;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-weight: 300;
+  padding: 15px ;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #A555EC;
+  transition: .3s ease-in;
+  box-shadow: rgba(254, 6, 217, 0.25) 0 10px 20px;
+}
+
+form .error {
+  color: #DC0000;
+  font-size: 1em;
+}
+
+
+@media (max-width: 900px) {
+  .container_login {
+    flex-direction: column-reverse;
+    
+    
+  }
+}
+
+@media (max-width: 500px) {
+  .dogs_login {
+    width: 350px;
+  }
+
+
+  
+}

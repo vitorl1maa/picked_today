@@ -1,0 +1,39 @@
+.about {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0A2647;
+}
+
+.about p {
+  color: #9CB4CC;
+  margin-bottom: 2em;
+
+}
+
+.about a {
+  display: block;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.btn {
+  background-color: #6C00FF;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  width: 7em;
+  font-weight: 300;
+  padding: 15px ;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #A555EC;
+  transition: .3s ease-in;
+  box-shadow: rgba(254, 6, 217, 0.25) 0 10px 20px;
+  color: #FFF;
+}

@@ -1,0 +1,121 @@
+.dashboard {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0A2647;
+}
+
+.dashboard h2 {
+  font-size: 2.2em;
+  margin-bottom: 0.5em;
+  color: #0A2647;
+}
+
+.dashboard p {
+  color: #9CB4CC;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.noposts {
+  text-align: center;
+}
+
+.noposts p {
+  margin-bottom: 1.5em;
+  
+}
+
+.noposts a {
+  padding: 10px 25px;
+}
+
+.post_header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #9CB4CC;
+  width: 80%;
+  padding: 10px;
+}
+
+.post_header span {
+  font-size: 1.5em;
+}
+
+.post_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  width: 80%;
+  padding: 10px;
+}
+
+.post_row p {
+  color: #000;
+  font-size: 1.5em;
+}
+
+.post_row button,
+.post_row a {
+  margin: 0 5px;
+  
+  width: 100px;
+  font-size: 0.7em;
+}
+
+.btn {
+  background-color: #6C00FF;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-weight: 300;
+  padding: 15px ;
+  
+}
+
+.actions span {
+  font-size: 1.5em;
+  
+}
+
+.btn:hover {
+  background-color: #A555EC;
+  color: #FFF;
+  transition: .3s ease-in;
+  box-shadow: rgba(254, 6, 217, 0.25) 0 10px 20px;
+}
+
+.btn_delete {
+  background: #EB455F;
+  color: #FFF;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-weight: 300;
+  padding: 14px;
+  
+}
+
+.btn_delete:hover {
+  background: #F7A4A4;
+  transition: .2s;
+  box-shadow: rgba(251, 1, 1, 0.25) 0 10px 20px;
+}
+
+@media (max-width: 700px) {
+  .post_row {
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+}
