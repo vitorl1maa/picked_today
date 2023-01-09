@@ -23,7 +23,7 @@ const Navbar = () => {
   const menuRef = useRef();
   const showMenu = () => {
     menuRef.current.classList.toggle(styles.responsive_menu);
-
+    
   }
 
   return (
@@ -45,19 +45,19 @@ const Navbar = () => {
 
         <NavLink to='/' className={({isActive}) => (isActive ? styles.active : '')}>
           <li className="link">
-            <div><HiHome/>Home</div>
+            <div onClick={showMenu}><HiHome/>Home</div>
           </li>
         </NavLink>
         {!user && (
           <>
             <NavLink to='/login' className={({isActive}) => (isActive ? styles.active : '')}>
               <li className="link">
-                <div><FiLogIn/>Entrar</div>
+                <div onClick={showMenu}><FiLogIn/>Entrar</div>
               </li>
             </NavLink>
             <NavLink to='/register' className={({isActive}) => (isActive ? styles.active : '')}>
               <li className="link">
-                <div><MdOutlineEditNote/>Cadastrar</div>
+                <div onClick={showMenu}><MdOutlineEditNote/>Cadastrar</div>
               </li>
             </NavLink>
           </>
@@ -66,19 +66,19 @@ const Navbar = () => {
                  <>
                  <NavLink to='/posts/create' className={({isActive}) => (isActive ? styles.active : '')}>
                  <li className="link">
-                   <div><MdDashboardCustomize/>Novo pick</div>
+                   <div onClick={showMenu}><MdDashboardCustomize/>Novo pick</div>
                  </li>
                </NavLink>
                <NavLink to='/dashboard' className={({isActive}) => (isActive ? styles.active : '')}>
                  <li className="link">
-                   <div><RiDashboardFill/>Dashboard</div>
+                   <div onClick={showMenu}><RiDashboardFill/>Dashboard</div>
                  </li>
                </NavLink>
              </>
         )}
         <NavLink to='/about' className={({isActive}) => (isActive ? styles.active : '')}>
           <li>
-            <div className="link"><HiInformationCircle />Sobre</div>
+            <div className="link" onClick={showMenu}><HiInformationCircle />Sobre</div>
           </li>
         </NavLink>
         {user && (
