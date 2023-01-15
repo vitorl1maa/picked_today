@@ -72,15 +72,18 @@ form .error {
 
 
 @media (max-width: 900px) {
+ 
   .container_login {
     flex-direction: column-reverse;
-    max-width: 100%;
+    
     
   }
 
   .container_login h2 {
     font-size: 1rem;
   }
+
+ 
 }
 
 @media (max-width: 500px) {
