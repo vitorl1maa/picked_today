@@ -27,8 +27,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto é um blog onde pessoas podem fazer posts de temas sobre elas ou sobre a rotina delas, é um projeto construido com React.JS e Google Firebase. Repliquei nesse projeto vários recursos que eu venho estudando em React como, context, react router, hooks, estados de erro, estados de loading, validação e autenticação.
-
-## 🔖 Layout
+Este projeto é um blog onde pessoas podem fazer posts de temas sobre elas ou sobre a rotina delas. Construído com React.JS e Google Firebase, repliquei nesse projeto vários recursos que venho estudando como Context API, React Router, Hooks, Estados de Erro, Estados de Loading, Validação e Autenticação.
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://picked-today.vercel.app/login).
