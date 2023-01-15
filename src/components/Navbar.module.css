@@ -3,7 +3,8 @@ nav {
   box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
   justify-content: space-between;
   align-items: center;
-  padding: .5em 2em;
+  padding: .5em 1em;
+  max-width: 100%;
   
 }
 
@@ -84,7 +85,7 @@ nav {
 
   .links_list {
     position: fixed;
-    top: -1px;
+    top: -2px;
     left: 0;
     height: 100%;
     width: 100%;

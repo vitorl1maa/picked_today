@@ -18,7 +18,7 @@
 .link_reset_password {
   margin-bottom: 1em;
   font-size: .8em;
-  font-weight: 00;
+  
  
 }
 
@@ -31,7 +31,7 @@
 }
 
 .container_login form{
-  width: 100%;
+  max-width: 100%;
   margin-right: 9em;
   margin-top: 2em;
 }
@@ -74,14 +74,19 @@ form .error {
 @media (max-width: 900px) {
   .container_login {
     flex-direction: column-reverse;
+    max-width: 100%;
     
-    
+  }
+
+  .container_login h2 {
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 500px) {
   .dogs_login {
     width: 350px;
+    padding: 2rem 1rem;
   }
 
 
